@@ -16,9 +16,7 @@
   "author": "Will Faircloth",
   "license": "MIT",
   "dependencies": {
-    "ws": "^7.3.1"
-  },
-  "devDependencies": {
-    "prompt-sync": "^4.2.0"
+    "ws": "7.3.1",
+    "prompt-sync": "4.2.0"
   }
 }
