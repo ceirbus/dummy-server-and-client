@@ -5,15 +5,20 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js",
+    "server": "node ./server/index.js",
+    "client": "node ./client/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://bit.heartlandcommerce.com/scm/~will.faircloth/dummy-server.git"
+    "url": "https://github.com/ceirbus/dummy-server-and-client.git"
   },
   "author": "Will Faircloth",
   "license": "MIT",
   "dependencies": {
     "ws": "^7.3.1"
+  },
+  "devDependencies": {
+    "prompt-sync": "^4.2.0"
   }
 }
